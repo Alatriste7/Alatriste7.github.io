@@ -1,0 +1,834 @@
+html, body {
+    overflow-x: hidden;
+}
+@font-face {
+    font-family: 'UbuntuR';
+    src: url('fonts/UbuntuR.eot');
+    src: url('fonts/UbuntuR.eot') format('embedded-opentype'),
+         url('fonts/UbuntuR.woff2') format('woff2'),
+         url('fonts/UbuntuR.woff') format('woff'),
+         url('fonts/UbuntuR.ttf') format('truetype'),
+         url('fonts/UbuntuR.svg#UbuntuR') format('svg');
+}
+@font-face {
+    font-family: 'UbuntuM';
+    src: url('fonts/UbuntuM.eot');
+    src: url('fonts/UbuntuM.eot') format('embedded-opentype'),
+         url('fonts/UbuntuM.woff2') format('woff2'),
+         url('fonts/UbuntuM.woff') format('woff'),
+         url('fonts/UbuntuM.ttf') format('truetype'),
+         url('fonts/UbuntuM.svg#UbuntuM') format('svg');
+}
+@font-face {
+    font-family: 'UbuntuB';
+    src: url('fonts/UbuntuB.eot');
+    src: url('fonts/UbuntuB.eot') format('embedded-opentype'),
+         url('fonts/UbuntuB.woff2') format('woff2'),
+         url('fonts/UbuntuB.woff') format('woff'),
+         url('fonts/UbuntuB.ttf') format('truetype'),
+         url('fonts/UbuntuB.svg#UbuntuB') format('svg');
+}
+
+a{
+    text-decoration: none;
+}
+
+section#main {
+    padding-top: 80px;
+    height: 1110px;
+    
+    background: url(../img/main-bg.jpg) no-repeat  center top;
+    
+}
+
+.phone{
+    padding-right: 23px;
+}
+
+.phone h3 {
+    color: #fff;
+    font-family: 'UbuntuM';
+}
+
+.phone p {
+    color: #fff;
+    font-family: 'UbuntuR';
+}
+
+#suka{
+    padding-left: 27px;
+}
+
+#suka img{
+width: 180px;
+}
+
+.social_link img{
+    padding-top: 5px;
+    width: 40px;
+    }
+
+.zag h2{
+    padding-top: 120px;
+        
+    color: #fff;
+    
+    font-family: 'UbuntuB';
+    font-size: 60px;
+   }
+
+.main-form{
+       background-color: rgba(255, 255, 255, 0.47);
+    }
+
+.title h2{
+    padding-top: 46px;
+    margin-bottom: 69px;
+    
+    font-family: 'UbuntuM';
+    font-size: 36px;
+    
+    color: #a60436;
+}
+
+.main-form input{
+    height: 60px;
+    width: 80%;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    
+    box-shadow: none;
+    border: none;
+    box-shadow: inset none;
+    border-radius: 5px;      
+    font-size: 24px;
+    font-family: 'UbuntuM';
+}
+
+.b4{
+    height: 60px;
+    width: 250px;
+    
+    border: none;
+    border-bottom: solid 3px #78092b;
+    border-radius: 3px;
+    background: #a60436;
+    color: #FFF;
+    
+    font-size: 24px;
+    font-family: 'UbuntuM';
+}
+
+.b4:hover{
+    margin-top: 2px;
+    
+    background: #d32158;
+    border-bottom: solid 1px #d50c4a;
+ }
+
+.b4:focus{
+    background: #d32158;
+}
+
+
+
+/*================================================ услуги сервиса====================================*/
+ 
+.services-header h2{
+    color: #323232;
+    
+    font-size: 38px;
+    font-family:'UbuntuB'
+}
+
+.icon{
+    margin-top: 3%;
+}
+
+.icon img {
+    width: 100px;
+}
+
+.icon h4{
+    font-size: 24px;
+    font-family: 'UbuntuM'
+}
+/*================================================ фото номеров====================================*/
+
+
+.header_num h3{
+    margin-top: 3%;    
+    
+    color: #393939;
+    
+    font-size: 38px;
+    font-family:'UbuntuB';
+}
+
+.cell{
+    margin-top: 2%;
+    border: solid 5px #d50c4a;
+    border-radius: 3px;
+    padding-bottom: 2%;
+}
+
+.cell h4{
+    font-size: 26px;
+    font-family: 'UbuntuM'
+}
+
+.cell ul{
+    padding-bottom: 4%;
+    
+    list-style: none;
+}
+
+.cell img{
+    width: 100%;
+}
+
+.cell ul li{
+    list-style-image: url(../img/cheek.png) ; 
+    color: #393939;
+    
+    font-size: 16px;
+    font-family:'UbuntuR';
+   
+}
+
+.list{
+    text-align: left;
+}
+
+.cell button{
+    width: 90%;
+    padding: 18px;
+    
+    font-size: 30px;
+    font-family: 'UbuntuM';
+    color: #FFF;
+    background:#a60436;
+    border: none;
+    border-bottom: solid 3px #700d2c;
+    border-radius: 3px;
+}
+
+.cell button:hover{
+    margin-top: 2px;
+    background:#c91e53;
+    border-bottom: solid 1px #c91e53;
+    border-radius: 3px;
+    
+}
+
+/*===========================================    modal                ==============================================*/
+
+button.btn_send {
+    background-color: #78092b;
+}
+
+button.btn_send:hover {
+    background-color: #c91e53;
+}
+/*===========================================   карусель               ==============================================*/
+
+#feedback {
+    padding-top: 730px;
+    padding-bottom: 770px;
+}
+
+.carousel-control.left{
+    background-image: none;
+}
+
+.carousel-control.right{
+    background-image: none;
+}
+
+.carousel-indicators .active {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    background-color: #78092b;
+}
+
+.carousel-control:hover {
+  color: red;
+}
+
+.carousel-control {
+  color: yellow;
+}
+
+
+.carousel-indicators li {
+  background-color: #000;
+}
+
+.carousel-indicators {
+  bottom: -100px
+}
+
+.avatar img{
+  width: 10%;
+  margin: 0 auto;
+  display: block;
+  
+}
+
+
+
+
+
+
+
+
+
+.item {    
+text-align: center;
+}
+
+.carousel{
+margin-top: 20px;
+}
+/*================================================ адаптация ====================================*/
+
+@media(min-width:0px) and (max-width:320px){
+    .logo{
+        text-align: center;
+    } 
+    
+    #suka{
+    padding-left: 0px;
+}
+    
+    #suka img{
+        width: 100px;
+    }
+    
+    .logo img{
+        width: 20px;
+    }
+    
+    .reviz img{
+        width: 150px;
+        margin-top: 30px;
+    }
+    
+    .phone{
+        text-align: center;
+    }
+    
+    .zag h2 {
+        font-size: 24px;
+        padding-top: 20px;
+    }
+    
+    .title h2{
+        font-size: 24px;
+        margin-bottom:20px;
+    }
+    
+    .main-form input{
+    height: 40px;
+    width: 80%;
+    margin-top: 9px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+    
+    .main-form button{
+        margin-top: 9px;
+        margin-bottom: 10px;
+        height: 50px;
+        width: 80%;
+        font-size: 20px;
+    }
+    
+    .main-form button:hover{
+        margin-top: 12px;
+    }
+    
+    .main-form{
+        margin: 3px;
+    }
+    
+    section#main {
+    height: 900px;
+    }
+    
+    .services-header h2{
+        font-size: 18px;
+    }
+    
+    .zuu h4 {
+        padding: 0;
+        margin: 0;
+        font-size: 14px;
+    }
+    
+    .icon h4{
+        font-size: 18px;
+    }
+    .header_num h3{
+        font-size: 20px
+    }
+   
+    .cell h4{
+        font-size: 18px
+    }
+    
+    .cell button{
+    font-size: 22px;
+        margin-bottom: 10px
+    }
+}
+/*================================================ адаптация ====================================*/
+
+@media(min-width:321px) and (max-width:480px){
+     .logo{
+        text-align: center;
+    } 
+    
+    #suka{
+    padding-left: 0px;
+}
+    
+    #suka img{
+        width: 100px;
+    }
+    
+    .logo img{
+        width: 20px;
+    }
+    
+    .reviz img{
+        width: 150px;
+        margin-top: 30px;
+    }
+    
+    .phone{
+        text-align: center;
+    }
+    
+    .zag h2 {
+        font-size: 24px;
+        padding-top: 20px;
+    }
+    
+    .title h2{
+        font-size: 24px;
+        margin-bottom:20px;
+    }
+    
+    .main-form input{
+    height: 40px;
+    width: 80%;
+    margin-top: 9px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+    
+    .main-form button{
+        margin-top: 9px;
+        margin-bottom: 10px;
+        height: 50px;
+        width: 80%;
+        font-size: 20px;
+    }
+    
+    .main-form button:hover{
+        margin-top: 12px;
+    }
+    
+    .main-form{
+        margin: 3px;
+    }
+    
+    section#main {
+    height: 900px;
+    }
+    
+    .services-header h2{
+        font-size: 18px;
+    }
+    
+    .zuu h4 {
+        padding: 0;
+        margin: 0;
+        font-size: 14px;
+    }
+    
+      .zuu1 h4 {
+        padding: 0;
+        margin: 0;
+        font-size: 18px;
+    }
+    
+    .icon h4{
+        font-size: 18px;
+    }
+    .header_num h3{
+        font-size: 20px
+    }
+   
+    .cell h4{
+        font-size: 18px
+    }
+    
+    .cell button{
+    font-size: 22px;
+        margin-bottom: 10px
+    }
+}
+/*================================================ адаптация ====================================*/
+
+@media(min-width:481px) and (max-width:768px){
+    .logo{
+        text-align: center;
+    } 
+    
+    #suka{
+    padding-left: 0px;
+}
+    
+    #suka img{
+        width: 100px;
+    }
+    
+    .logo img{
+        width: 20px;
+    }
+    
+    .reviz img{
+        width: 150px;
+        
+    }
+    
+    .phone {
+         padding-top: 15px;
+         text-align: center;
+    }
+    
+    
+    
+    .zag h2 {
+        font-size: 24px;
+        padding-top: 20px;
+    }
+    
+    .title h2{
+        font-size: 24px;
+        margin-bottom:20px;
+    }
+    
+    .main-form input{
+    height: 40px;
+    width: 80%;
+    margin-top: 9px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+    
+    .main-form button{
+        margin-top: 9px;
+        margin-bottom: 10px;
+        height: 50px;
+        width: 80%;
+        font-size: 20px;
+    }
+    
+    .main-form button:hover{
+        margin-top: 12px;
+    }
+    
+    .main-form{
+        margin: 3px;
+    }
+    
+    section#main {
+    height: 900px;
+    }
+    
+    .services-header h2{
+        font-size: 18px;
+    }
+    
+    .zuu h4 {
+        padding: 0;
+        margin: 0;
+        font-size: 14px;
+    }
+    
+      .zuu1 h4 {
+        padding: 0;
+        margin: 0;
+        font-size: 18px;
+    }
+    
+    .icon{
+        padding-left: 40px;
+        padding-right:40px;
+    }
+    
+    .icon h4{
+        font-size: 18px;
+    }
+    .header_num h3{
+        font-size: 20px
+    }
+   
+    .cell h4{
+        font-size: 18px
+    }
+    
+    .cell button{
+    font-size: 22px;
+        margin-bottom: 10px
+    }
+
+}
+/*================================================ адаптация ====================================*/
+
+@media(min-width:769px) and (max-width:992px){
+     .logo{
+        text-align: center;
+    } 
+    
+    #suka{
+    padding-left: 0px;
+}
+    
+    #suka img{
+        width: 100px;
+    }
+    
+    .logo img{
+        width: 20px;
+    }
+    
+    .reviz img{
+        width: 150px;
+        
+    }
+    
+    .phone {
+         padding-top: 15px;
+         text-align: center;
+    }
+    
+    
+    
+    .zag h2 {
+        font-size: 24px;
+        padding-top: 20px;
+    }
+    
+    .title h2{
+        font-size: 24px;
+        margin-bottom:20px;
+    }
+    
+    .main-form input{
+    height: 40px;
+    width: 80%;
+    margin-top: 9px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+    
+    .main-form button{
+        margin-top: 9px;
+        margin-bottom: 10px;
+        height: 50px;
+        width: 80%;
+        font-size: 20px;
+    }
+    
+    .main-form button:hover{
+        margin-top: 12px;
+    }
+    
+    .main-form{
+        margin: 3px;
+    }
+    
+    section#main {
+    height: 900px;
+    }
+    
+    .services-header h2{
+        font-size: 18px;
+    }
+    
+    .zuu h4 {
+        padding: 0;
+        margin: 0;
+        font-size: 14px;
+    }
+    
+      .zuu1 h4 {
+        padding: 0;
+        margin: 0;
+        font-size: 18px;
+    }
+    
+    .icon{
+        padding-left: 40px;
+        padding-right:40px;
+    }
+    
+    .icon h4{
+        font-size: 18px;
+    }
+    .header_num h3{
+        font-size: 20px
+    }
+   
+    .cell h4{
+        font-size: 18px
+    }
+    
+    .cell button{
+    font-size: 22px;
+        margin-bottom: 10px
+    }
+
+}
+/*================================================ адаптация ====================================*/
+
+@media(min-width:993px) and (max-width:1200px){
+    .logo{
+        text-align: center;
+    } 
+    
+    #suka{
+    padding-left: 0px;
+}
+    
+    #suka img{
+        width: 120px;
+    }
+    
+    .logo img{
+        width: 25px;
+    }
+    
+    .reviz img{
+        width: 150px;
+        
+    }
+    
+    .phone {
+         padding-top: 15px;
+         text-align: center;
+    }
+    
+    
+    
+    .zag h2 {
+        font-size: 28px;
+        padding-top: 20px;
+    }
+    
+    .title h2{
+        font-size: 26px;
+        margin-bottom:20px;
+    }
+    
+    .main-form input{
+    height: 40px;
+    width: 80%;
+    margin-top: 9px;
+    padding-left: 20px;
+    font-size: 23px;
+}
+    
+    .main-form button{
+        margin-top: 9px;
+        margin-bottom: 10px;
+        height: 50px;
+        width: 80%;
+        font-size: 23px;
+    }
+    
+    .main-form button:hover{
+        margin-top: 12px;
+    }
+    
+    .main-form{
+        margin: 3px;
+    }
+    
+    section#main {
+    height: 900px;
+    }
+    
+    .services-header h2{
+        font-size: 22px;
+    }
+    
+    .zuu h4 {
+        padding: 0;
+        margin: 0;
+        font-size: 19px;
+    }
+    
+      .zuu1 h4 {
+        padding: 0;
+        margin: 0;
+        font-size: 18px;
+    }
+    
+    .icon{
+        padding-left: 40px;
+        padding-right:40px;
+    }
+    
+    .icon h4{
+        font-size: 18px;
+    }
+    .header_num h3{
+        font-size: 20px
+    }
+   
+    .cell h4{
+        font-size: 18px
+    }
+    
+    .cell button{
+    font-size: 26px;
+        margin-bottom: 10px
+    }
+}
+
+
+                  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
